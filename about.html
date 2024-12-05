@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Ecohaven</title>
+    <meta name="description" content="Learn about Ecohaven's mission to provide sustainable, eco-friendly home goods and our commitment to environmental responsibility.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <img src="images/EcoHaven.png" alt="Ecohaven Logo" class="logo">
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html" class="active">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="about">
+            <div class="container">
+                <h1>About Ecohaven</h1>
+                <article class="about-intro">
+                    <p class="lead">Ecohaven is dedicated to providing eco-friendly home goods that help you live sustainably and stylishly.</p>
+                </article>
+                
+                <article class="mission">
+                    <h2>Our Mission</h2>
+                    <p>To provide environmentally concerned consumers with top-quality, top-value, aesthetically pleasing products that assist in greening up the world.</p>
+                </article>
+
+                <article class="values">
+                    <h2>Our Values</h2>
+                    <ul class="values-list">
+                        <li><strong>Innovation:</strong> Constantly seeking new ways to reduce environmental impact</li>
+                        <li><strong>Sustainability:</strong> Committed to eco-friendly practices in all operations</li>
+                        <li><strong>Quality:</strong> Delivering durable products that last longer and reduce waste</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <form class="contact-form" action="/submit-form" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <p>Email: <a href="mailto:info@ecohaven.com">info@ecohaven.com</a></p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Follow us on Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p class="copyright">&copy; 2024 Ecohaven. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your-kit-code.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

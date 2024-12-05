@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecohaven - Grow Your World!</title>
+    <meta name="description" content="Discover eco-friendly home goods that help you live sustainably and stylishly with Ecohaven.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <img src="images/EcoHaven.png" alt="Ecohaven - Grow Your World!" class="logo">
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to Ecohaven</h1>
+                <p class="lead">Discover sustainable living with our eco-friendly home goods</p>
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="product-grid">
+                    <article class="product-card">
+                        <i class="fas fa-leaf product-icon"></i>
+                        <h3>Bamboo Essentials</h3>
+                        <p>Sustainable kitchen and bathroom accessories</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </article>
+                    <article class="product-card">
+                        <i class="fas fa-recycle product-icon"></i>
+                        <h3>Natural Cleaners</h3>
+                        <p>Chemical-free cleaning solutions</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </article>
+                    <article class="product-card">
+                        <i class="fas fa-seedling product-icon"></i>
+                        <h3>Reusable Items</h3>
+                        <p>Zero-waste lifestyle products</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <form class="contact-form" action="/submit-form" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <p>Email: <a href="obi6745@gmail.com">EcoHaven@gmail.com</a></p>
+                    <p>Phone: 437-245-6545</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Follow us on Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p class="copyright">&copy; 2024 Ecohaven. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
